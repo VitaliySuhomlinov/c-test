@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include "custom_gettype.h"
 
-#define PRINT_TYPE(var) printf("Тип переменной: %s\n", (typeof(var) == int) ? "int" : "другой тип");
-
 int main() {
     /**
      * Указатели
